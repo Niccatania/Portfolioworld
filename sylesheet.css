@@ -80,22 +80,8 @@ p {
 }
 
 /* Choosing our work image size, and opacity. Then adding a hover feature*/
-.skyblue
-{width: 850px;
-    opacity: 1;
-    filter: alpha(opacity=100);
-    margin: 18% 22% 22% -14%;
-}
-
-.skyblue:hover
-{
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-}
-
-/* Choosing our work image size, and opacity. Then adding a hover feature*/
 .seo
-{width: 850px;
+{width: 950px;
     opacity: 1;
     filter: alpha(opacity=100);
     margin: 18% 22% 22% -14%;
@@ -109,7 +95,20 @@ p {
 
 }
 
-.redshade{width: 850px;
+.skyblue
+{width: 800px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    margin: 18% 22% 22% -14%;
+}
+
+.skyblue:hover
+{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.redshade{width: 800px;
     opacity: 1;
     filter: alpha(opacity=100);
     margin: 18% 22% 22% -14%;
@@ -170,7 +169,7 @@ border: solid 3px #ADBABD;
 
 /* Media Queries */
 
-/* Screens with a max width of 1024px, laptops */
+/* Screens with a max width of 1200px, laptops */
 @media screen and (max-width:1200px)
     {.imgsize{
         width: 48%;
@@ -188,20 +187,20 @@ border: solid 3px #ADBABD;
         margin: 40px;}
     
         .seo{
-            width: 650px;
+            width: 750px;
            opacity: 1;
            filter: alpha(opacity=100);
            margin: 13% 25% 4% 9%;}
        
        .skyblue{
-           width: 650px;
+           width: 600px;
            opacity: 1;
            filter: alpha(opacity=100);
            margin: 13% 25% 4% 9%;}
        
        
        .redshade {
-           width: 650px;
+           width: 600px;
            opacity: 1;
            filter: alpha(opacity=100);
            margin: 13% 25% 4% 9%;}
@@ -246,20 +245,20 @@ section> h2 {
 
 
     .seo{
-        width: 627px;
+        width: 700px;
        opacity: 1;
        filter: alpha(opacity=100);
        margin: 13% 25% 4% 9%;}
    
    .skyblue{
-       width: 627px;
+       width: 600px;
        opacity: 1;
        filter: alpha(opacity=100);
        margin: 13% 25% 4% 9%;}
    
    
    .redshade {
-       width: 627px;
+       width: 600px;
        opacity: 1;
        filter: alpha(opacity=100);
        margin: 13% 25% 4% 9%;}
