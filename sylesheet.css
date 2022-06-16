@@ -58,12 +58,12 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid;
 }
 
 #sidebar ul p {
     color: rgb(26, 24, 24);
-    padding: 10px;
+    padding: 40px;
 }
 
 #sidebar ul li a {
@@ -103,6 +103,36 @@ h3 {
   background-color: lightblue;
 }
 
-.hover_bless {}
-  background: #fff;
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  #sidebar{
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 20vh;
 }
+/* .card{
+  min-width: 250px;
+  max-width: 100%;
+  min-height: 130vh;
+} */
+
+.coll-6{
+  min-width: 100%;
+}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+
+@media (min-width: 1400px) {  }
