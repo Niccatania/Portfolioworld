@@ -24,6 +24,13 @@ body {
   min-height: 200vh;
 }
 
+
+#iconClass{
+  max-width: 50px;
+  max-height: 100px;
+
+}
+
 /* body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
