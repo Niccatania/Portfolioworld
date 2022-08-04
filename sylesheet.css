@@ -10,7 +10,10 @@ body {
 }
 
 .wrapper {
+
   display: flex;
+  padding-top: 20px;
+  padding-left: 25px;
   width: 100%;
   min-height: 100vh;
   /* align-items: stretch; */
@@ -31,18 +34,6 @@ body {
 
 }
 
-/* body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
-} */
-/* 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
-} */
 
 a, a:hover, a:focus {
     color: inherit;
@@ -82,16 +73,7 @@ a, a:hover, a:focus {
   color: rgb(26, 24, 24);
     background: #fff;
 }
-/* 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
-} */
-/* ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #6d7fcc;
-} */
+
 
 .wrapper_two {
   display: flex;
@@ -158,3 +140,22 @@ h3 {
 
 
 @media (min-width: 1400px) {  }
+
+
+.parallax {
+  /* The image used */
+  background-image: url("./images_assets/header.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.claw {
+  --bs-gutter-x:0
+}
